@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button
+        android:id="@+id/zwetherapie"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        
+        android:text="Z-W: zorgverlener in eigen werkcontext" />
+
+    <Button
+        android:id="@+id/zzetherapie"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="Z-Z: zorgverlener-zorgverlener" />
+
+    <Button
+        android:id="@+id/zaetherapie"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="Z-A: zorgverlener-anderen" />
+
+    <Button
+        android:id="@+id/zpetherapie"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="Z-P: zorgverlener-patient" />
+
+    <Button
+        android:id="@+id/ppetherapie"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="P-P: patient-patient" />
+
+    <Button
+        android:id="@+id/paetherapie"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="P-A: patient-anderen" />
+
+    <Button
+        android:id="@+id/pletherapie"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="P-L: patient in persoonlijke levenssfeer" />
+
+</LinearLayout>
